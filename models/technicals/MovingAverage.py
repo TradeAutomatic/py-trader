@@ -5,13 +5,7 @@ class MovingAverage :
     """
 
     def __init__(self):
-        self.moving_average_open = 0.0
-        pass
-
-    def calculate(rate_list):
-        for rate in rate_list:
-            print("Rate : ", rate._get_id(), " -> open : ", rate._get_open());
-            pass
-        pass
-    calculate = classmethod(calculate)
-
+        self.open = (0.0)
+        self.close = 0.0
+        self.low = 0.0
+        self.high = 0.0
